@@ -1,118 +1,130 @@
-🩺 Firsthand Healthcare Staffing Website 
+**Parra Harris Lawfirm Co-Parenting Plan Website — Frontend**
 
-A modern, fully responsive website redesign for Firsthand Healthcare Staffing.
-Developed by VizX Global, this upgrade focuses on delivering a professional design, improved performance, and a better user experience across all devices.
+A modern web-based platform for Florida families to create legally compliant parenting plans through an interactive questionnaire system.
+Developed by Vizx Global Solutions for a Parra Harris Law Firm, this frontend implements a dynamic, aesthetic, and responsive user interface powered by React Javascript, Tailwind CSS, and ShadCn UI.
 
-🧭 Project Overview
-This project transforms the existing site — firsthandhealthcarestaffing.com
- — into a sleek, high-performance web application that reflects the company’s dedication to quality healthcare staffing solutions.
- 
-It provides an enhanced interface for healthcare professionals, clients, and administrators with:
+**🚀 Project Overview**
 
--A clean, professional design
+This frontend serves as the user-facing interface of the Co-Parenting Plan platform.
+It enables users to:
 
--Faster page loads and SEO optimization
+Build customized, Florida-compliant parenting plans through guided questionnaires.
 
--Easy-to-update content architecture
+View, sign, and download finalized legal documents.
 
-Responsive, mobile-friendly layouts
+Make secure online payments for selected service tiers.
 
+Manage their profiles, view plan status, and interact with attorneys (for premium tiers).
 
-⚙️ Core Features
+**🎯 Core Features**
 
-🏠 Homepage & Navigation
+# 📋 Co-Parenting Plan Builder
 
-Modern hero section with clear call-to-action
+20–30 dynamic, Florida-specific questions.
 
-Quick links to job application and service pages
+Step-by-step multi-page navigation.
 
-Highlighted mission, vision, and values
+Dynamic children details.
 
+Custody preferences and schedule configuration.
 
-💼 Services & Staffing Solutions
+Financial arrangements and communication protocol fields.
 
-Overview of healthcare staffing specialties(Nurses, LVN/LPN, CNA)
+# 📄 Document Generation
 
-Detailed service descriptions and hiring information
+Parra Harris Law Firm-compliant PDF generation.
 
-Integrate with backend job posting API
+Variable substitution from user responses.
 
+Professional formatting for court compliance.
 
-📄 Application & Contact Forms
+Document preview and download capability.
 
-React form components with client-side validation
+# ✍️ E-Signature Integration
 
-Submission via API or email service (Formspree / EmailJS)
+Dual electronic signature (for both parents).
 
-Optional file upload for resumes
+Signature verification and audit trail.
 
+Email delivery of signed documents.
 
-🌍 Performance & SEO
+# 👥 User Account Management
 
-Fast builds with Vite
+Secure signup, login, and verification.
 
-Optimized images and lazy loading
+Password recovery.
 
-SEO meta tags and sitemap
+Dashboard with plan status tracking.
 
-Google Analytics integration
+Stored documents and profile management.
 
+# 💳 Payment Integration
 
-📱 Responsive Design
+Multi-tier pricing system:
 
-Tailwind CSS responsive utilities
+Parenting Plan Only – $999
 
-Optimized for desktop, tablet, and mobile devices
+Parenting Plan Plus – $2500
 
+45-Minute Attorney Q&A – $350
 
-⚙️ Setup & Installation
+Payment gateways:
 
-1️⃣ Clone Repository
+Stripe
 
-git clone (https://github.com/Vizx-Global/firsthandhealthcare.git)
+Amazon Pay
 
-2️⃣ Navigate into the Project Folder
+Cash Pay (optional)
 
-cd firsthand-healthcare
+Automatic receipt generation and email notifications.
 
+# ⚖️ Attorney Dashboard (For Tier 2 and 3 Plans)
 
-3️⃣ Install Dependencies
+Review and edit parenting plans.
 
+Add comments and annotations.
+
+Direct client messaging.
+
+Financial affidavit and child support calculators.
+
+# 📅 Consultation Booking (Tier 3)
+
+Schedule 45-minute Q&A sessions with attorneys.
+
+Calendly or custom calendar integration.
+
+Zoom API for video conferencing.
+
+Email reminders and note delivery.
+
+# 🧠 Admin Controls
+
+Manage users, plans, and content.
+
+Analytics dashboard (KPI, revenue, user engagement).
+
+Questionnaire editor and PDF template manager.
+
+Email and content management.
+
+**⚙️ Setup & Installation**
+
+# Clone Repository
+git clone https://github.com/Vizx-Global/parraharrislaw_client.git
+
+# Navigate into the project folder
+cd parraharrislaw_client
+
+# Install dependencies
 npm install
 
-
-4️⃣ Create .env File in Project Root
-
+# Create .env File inside the project route folder
 VITE_API_BASE_URL=http://localhost:8000
+VITE_STRIPE_PUBLIC_KEY=your_stripe_public_key
+VITE_ZOOM_API_KEY=your_zoom_key
+VITE_ZOOM_API_SECRET=your_zoom_secret
 
-VITE_EMAIL_SERVICE_KEY=your_email_service_key
 
-VITE_ANALYTICS_ID=your_google_analytics_id
-
-
-5️⃣ Run Development Server
-
+# Run development server
 npm run dev
-
-Your app will run at:
-
-👉 http://localhost:5173/
-
-🚀 Build for Production
-
-npm run build
-
-
-Deploy the generated /dist folder to your hosting platform.
-
-🧾 License
-
-This project is proprietary and confidential.
-
-All rights reserved © 2025 VizX Global & Firsthand Healthcare Staffing.
-
-
-
-
-
-
